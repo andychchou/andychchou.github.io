@@ -1,0 +1,42 @@
+$color-primary: #2288bb;
+$color-secondary: #115599;
+$color-pale: #bbdddd;
+$color-mid: #22aaaa;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h2 {
+    color: $color-secondary;
+}
+body {
+    background-color: #eee;
+    padding: 20px;
+    line-height: 1.5em;
+    border-radius: 10px;
+    font-family: 'Open Sans', Helvetica, sans-serif
+}
+.jumbotron {
+    background-color: $color-primary;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.navbar {
+    background-color: $color-mid;
+}
+.site-footer {
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
+.tab-content {
+    border: 1px #ddd solid;
+    border-top: 0;
+    padding: 30px;
+}
+.nav-tabs > li > a:hover {
+    background-color: #ddd;
+  }
