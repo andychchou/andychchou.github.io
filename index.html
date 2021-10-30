@@ -16,31 +16,30 @@
     <title>Andy Chou</title>
 </head>
 <body>
-
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <div class="container">
+        <header class="jumbotron jumbotron-fluid">
             <div class="row">
                 <div class="col">
                     <h1>Andy Chou</h1>
                 </div>
             </div>
+        </header>
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">...Abouthere</div>
+            <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">...projectshere</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...contacthere</div>
         </div>
-    </header>
-    <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">Projects</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">...Abouthere</div>
-        <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">...projectshere</div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...contacthere</div>
     </div>
 
     <!-- build:js js/main.js -->
