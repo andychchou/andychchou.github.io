@@ -1,7 +1,7 @@
 $color-primary: #2288bb;
 $color-secondary: #115599;
-$color-pale: #bbdddd;
-$color-mid: #22aaaa;
+$color-pale: #ddd;
+$color-bg: #eee;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 h1 {
@@ -13,7 +13,7 @@ h2 {
     color: $color-secondary;
 }
 body {
-    background-color: #eee;
+    background-color: $color-bg;
     padding: 20px;
     line-height: 1.5em;
     border-radius: 10px;
@@ -25,18 +25,17 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
-.navbar {
-    background-color: $color-mid;
-}
-.site-footer {
-    background-image: linear-gradient($color-pale, white);
-    padding: 20px 0;
-}
 .tab-content {
     border: 1px #ddd solid;
     border-top: 0;
     padding: 30px;
+    background-color: white;
 }
 .nav-tabs > li > a:hover {
-    background-color: #ddd;
-  }
+    background-color: $color-pale;
+}
+
+.page-header {
+    border-bottom: 1px solid $color-pale;
+    margin: 20px 0;
+}
