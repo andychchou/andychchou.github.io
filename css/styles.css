@@ -22,7 +22,7 @@ body {
 .tab-content {
   border: 1px #ddd solid;
   border-top: 0;
-  padding: 30px;
+  padding: 10px 40px;
   background-color: white; }
 
 .nav-tabs > li > a:hover {
@@ -30,4 +30,8 @@ body {
 
 .page-header {
   border-bottom: 1px solid #ddd;
-  margin: 20px 0; }
+  margin: 30px 0 15px; }
+
+.dl-btn {
+  margin: 0, 80px;
+  padding: 0, 80px; }
