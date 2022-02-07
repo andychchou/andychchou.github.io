@@ -45,119 +45,137 @@
                 <div class="page-header">
                     <h3>Hello there</h3>
                 </div>
-                <p>I am a fullstack developer from San Diego, CA, with 1 year of personal experience in creating intuitive and dynamic web applications. I love learning about all the various ways of creating different kinds of apps, from dynamic websites using React to video games in Unity.</p>
-                <p>Currently I am working as a process engineer/scientist in the biotech industry, but I am ready and eager to learn more as a developer.</p>
+                <div class="row">
+                    <div class="col-md-6 col-xl-4">
+                        <img class="d-block mx-auto rounded-circle" src="img/portrait.jpg" alt="Andy Chou" width="330px">
+                    </div>
+                    <div class="col-md-6 col-xl-8">
+                        <p>I am a fullstack developer from San Diego, CA, with 1 year of personal experience in creating intuitive and dynamic web applications. I love learning about all the various ways of creating different kinds of apps, from dynamic websites using React to video games in Unity.</p>
+                        <p>Currently I am working as a process engineer/scientist in the biotech industry, but I am ready and eager to learn more as a developer.</p>
+                    </div>
+                </div>
             </div>
             <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
                 <div class="page-header">
                     <h3>What I've been working on</h3>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <h4>UnoChat (WIP)</h4>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
-                        <h6>JavaScript, React, socket.io, Node.js</h6>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 mt-1">
                         <a href="https://github.com/andychchou/unochat" class="btn btn-info btn-sm" role="button" target="_blank">View on GitHub <span class="fa fa-github"></span></a>
+                    </div>
+                    <div class="col-md-8 order-md-first">
+                        <h6>JavaScript, React, Socket.io, Node.js</h6>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-4 mt-2">
+                        <img src="img/uno.png" alt="UnoChat" width="200px">
+                    </div>
+                    <div class="col-md-8 order-md-first">
                         <p>Currently still work in progress, you can view the current source code on GitHub.</p>
                         <p>A web app that runs a multiplayer game of Uno in the browser along with an in-game chat application to go with it. The multiplayer functionality uses socket.io and interacts with an Express.js server.</p>
                         <p>Currently the basic functionality of the chat application portion has been completed: players can join game rooms and chat with other users in the same room. The Uno game portion and visual designs are currently work in progress.</p>
                     </div>
                 </div>
-               
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <h4>Table Top Town</h4>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <a href="https://tabletoptown.herokuapp.com" class="btn btn-primary btn-sm" role="button" target="_blank">Visit Link <span class="fa fa-external-link"></span></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
-                        <h6>React, Redux, JavaScript, JSX</h6>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 mt-1">
                         <a href="https://github.com/andychchou/nutabletopreact" class="btn btn-info btn-sm" role="button" target="_blank">View on GitHub <span class="fa fa-github"></span></a>
+                    </div>
+                    <div class="col-md-8 order-md-first">
+                        <h6>React, Redux, JavaScript, JSX</h6>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-4 mt-2">
+                        <img src="img/ttt.png" alt="TableTopTown" width="200px">
+                    </div>
+                    <div class="col-md-8 order-md-first">
                         <p>A table top themed website built primarily using React. This website includes some features like an about page and a contact page, as well as a blog page and a gaming page that offers interactive examples of some board games built using React.</p>
                         <p>The structure of this website follows the React structure, by dynamically creating and declaring individual components using JavaScript that are rendered by the browser. This allows for parts and sections of the website to exist as separate child components to be called and rendered by a parent component. Most of the text content and images are stored in a separate Express.js server and dynamically rendered.</p>
                         <p>Redux was also implemented here by introducing a global store to hold state to be passed to components. State is updated using actions (objects containing data) and reducers (pure functions that update the current state using actions), allowing for a predictable flow of data.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <h4>Table Top Town Server</h4>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <h6>Node.js, Express.js, MongoDB, Heroku</h6>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 mt-1">
                         <a href="https://github.com/andychchou/tttserver" class="btn btn-info btn-sm" role="button" target="_blank">View on GitHub <span class="fa fa-github"></span></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8 order-md-first">
                         <p>An Express.js server that primarily functions as the backend server for the Table Top Town client. This server is hosted as a Node.js app on Heroku.</p>
                         <p>This server handles requests from a client and then queries a MongoDB database. Then it responds back to the client accordingly with the fetched data from the database. In addition to content fetching, this server also handle other common web server features like authentication, session tokens, and resource sharing. </p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <h4>Chess with React</h4>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <a href="https://tabletoptown.herokuapp.com/games/chess/play" class="btn btn-primary btn-sm" role="button" target="_blank">Visit Link <span class="fa fa-external-link"></span></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
-                        <h6>React, JavaScript, JSX</h6>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 mt-1">
                         <a href="https://github.com/andychchou/nutabletopreact/tree/main/src/components/chess" class="btn btn-info btn-sm" role="button" target="_blank">View on GitHub <span class="fa fa-github"></span></a>
+                    </div>
+                    <div class="col-md-8 order-md-first">
+                        <h6>React, JavaScript, JSX</h6>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-4 mt-2">
+                        <img src="img/chess.png" alt="Chess" width="200px">
+                    </div>
+                    <div class="col-md-8 order-md-first">
                         <p>A self-contained, simple chess application built using React. This application exists as a section featured in the Table Top Town website mentioned above.</p>
                         <p>This chess app is built following React concepts, using JSX and JavaScript. The chess board and pieces are rendered as components, and the movement of the pieces and player turn are handled by JavaScript logic.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <h4>andychchou.github.io</h4>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <a href="https://andychchou.github.io" class="btn btn-primary btn-sm" role="button" target="_blank">Visit Link <span class="fa fa-external-link"></span></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
-                        <h6>Bootstrap, HTML, CSS, SCSS, jQuery</h6>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 mt-1">
                         <a href="https://github.com/andychchou/andychchou.github.io" class="btn btn-info btn-sm" role="button" target="_blank">View on GitHub <span class="fa fa-github"></span></a>
+                    </div>
+                    <div class="col-md-8 order-md-first">
+                        <h6>Bootstrap, HTML, CSS, SCSS, jQuery</h6>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-4 mt-2">
+                        <img src="img/portfolio.png" alt="Portfolio" width="200px">
+                    </div>
+                    <div class="col-md-8 order-md-first">
                         <p>My personal portfolio page, you're looking at it right now. This webpage uses Bootstrap to deliver a responsive experience, compatible with both smaller mobile viewports and larger desktop viewports.</p>
                         <p>The development environment that I used for working on this page included the use of a SCSS preprocessor for compiling CSS. Then I used npm scripts to run parallel shells for running lite-server for test viewing and onchange scripts for realtime SCSS-to-CSS translating.</p>
                     </div>
